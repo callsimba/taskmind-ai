@@ -1,40 +1,120 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Taskmind -AI
+
+An intelligent task management application that leverages AI to help users organize, prioritize, and complete tasks efficiently.
+
+## Features
+
+- **AI-Powered Task Suggestions**: Get intelligent, context-specific suggestions to break down complex tasks and optimize your workflow.
+- **Natural Language Input**: Add tasks using natural language, and let the AI interpret due dates, categories, and priorities.
+- **Responsive Design**: Seamless experience across desktop, tablet, and mobile devices.
+- **Dark Mode**: Toggle between light and dark themes for comfortable viewing in any environment.
+- **Task Dashboard**: View, sort, and filter tasks with an intuitive interface.
+- **Calendar View**: Visualize your tasks in a monthly calendar format.
+- **Task Insights**: Gain valuable insights into your productivity and task completion patterns.
+- **User Profiles**: Personalize your experience with custom user profiles.
+- **Notifications**: Stay on top of tasks with customizable reminders and alerts.
+
+## Technologies Used
+
+- Next.js 13 with App Router
+- React 18
+- TypeScript
+- Tailwind CSS
+- Shadcn UI Components
+- OpenAI API for AI-powered suggestions
+- React Big Calendar for the calendar view
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Node.js (v14 or later)
+- npm (v6 or later)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/callsimba/taskmind-ai.git
+   cd taskmind-ai
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-## Learn More
+3. Set up environment variables:
+   Create a `.env.local` file in the root directory and add the following:
+   ```makefile
+   OPENAI_API_KEY=your_openai_api_key_here
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+4. Run the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Project Structure
 
-## Deploy on Vercel
+- `/app`: Contains the main application code.
+  - `/components`: Reusable React components.
+  - `/hooks`: Custom React hooks.
+  - `/lib`: Utility functions and API calls.
+  - `/pages`: Next.js pages and API routes.
+- `/public`: Static assets.
+- `/styles`: Global styles and Tailwind CSS configuration.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Contributing
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# taskmind-ai
->>>>>>> b3de7ccdcb5aa6f987cfb955b418d26f63602298
+We welcome contributions to Taskmind -AI! Follow these steps to contribute:
+
+1. Fork the repository.
+2. Create a new branch:
+   ```bash
+   git checkout -b feature/your-feature-name
+   ```
+3. Make your changes and commit them:
+   ```bash
+   git commit -m 'Add some feature'
+   ```
+4. Push to the branch:
+   ```bash
+   git push origin feature/your-feature-name
+   ```
+5. Submit a pull request.
+
+Please ensure your code adheres to the existing style and passes all tests.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- OpenAI for providing the AI capabilities.
+- Next.js and React teams for their excellent frameworks.
+- Tailwind CSS for the utility-first CSS framework.
+- Shadcn UI for their beautiful and accessible UI components.
+
+## Contact
+
+If you have any questions or feedback, please open an issue on GitHub or contact me directly on telegram @npx_react_native
+
+Happy task managing with Taskmind -AI!
+
+
+## DashBoard
+![DashBoard with Quick Add Task](https://github.com/user-attachments/assets/769358b5-23d1-4b2a-9c62-70cc51d60ca1)
+
+## Add Task
+![Add task](https://github.com/user-attachments/assets/1ceeadde-6e26-4464-ae9f-7e389a8f70c2)
+
+## Profile
+![Profile](https://github.com/user-attachments/assets/197cb7b4-6ca5-41a4-96d7-50e677bb64ae)
+
+## Setting
+
+![Settings](https://github.com/user-attachments/assets/4a807aea-3987-4c84-a417-ba182cf7457a)
